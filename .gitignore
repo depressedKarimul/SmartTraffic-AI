@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# Expo / React Native
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Machine learning artifacts
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.onnx
+*.pt
+*.pth
+
+# Datasets and notebooks
+*.csv
+*.csv.gz
+*.xlsx
+*.parquet
+*.ipynb
+.ipynb_checkpoints/
+
+# Local generated folders
+anaconda_projects/
+
+# OS / editor
+.DS_Store
+Thumbs.db
